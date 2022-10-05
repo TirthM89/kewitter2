@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kwitter Message
+        page</title>
+    <script src="https://www.gstatic.com/fireba sejs/7.6.2/firebase-app.js">
+    </script>
+    <script src="https://www.gstatic.com/fireba
+        sejs/7.6.2/firebase-firestore.js">
+        </script>
+    <script src="https://www.gstatic.com/fireba
+        sejs/live/3.1/firebase.js">
+        </script>
+    <link href="https://fonts.googleapis.com/
+        css?
+        family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn. com/bootstrap/3.4.0/css/bootstrap.
+min.css">
+    <script src="https://ajax.googleapis.com/aj
+ax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+    <script src="https://maxcdn.bootstrapcdn.c
+om/bootstrap/3.4.0/js/bootstrap.mi
+n.js">
+</script>
+    <meta name="viewport" content="width=device-width,
+initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn. com/bootstrap/3.4.0/css/bootstrap.
+min.css">
+
+    <script src="https://ajax.googleapis.com/aj
+ax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+    <script src="https://maxcdn.bootstrapcdn.c
+om/bootstrap/3.4.0/js/bootstrap.mi
+n.js">
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+<div class="container">
+    <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">
+LOG OUT
+    </button>
+    <center>
+        <h1 class="header">
+            KWITTER
+
+            <sup>
+                <img src="m2.png">
+            </sup>
+        </h1>
+
+    <div id="output" style="text-align:left; margin: bottom 70px;"></div>
+    </center>
+</div>
+<center>
+        <div class="input_div_message_page">
+            <label>
+                SEND
+            </label>
+            <input type="text" class="form-control" id="msg" placeholder="Message">
+
+            <button class="btn btn-success" onclick="send()">
+            send
+        </button>
+
+
+        </div>
+    </center>
+
+    <script src="kwitter_page.js"></script>
+
+
+</body>
+
+</html>
